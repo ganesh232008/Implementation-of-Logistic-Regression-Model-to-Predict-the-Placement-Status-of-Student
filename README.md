@@ -1,18 +1,20 @@
 # Implementation-of-Logistic-Regression-Model-to-Predict-the-Placement-Status-of-Student
-AIM:
+## AIM:
 To write a program to implement the the Logistic Regression Model to Predict the Placement Status of Student.
 
-Equipments Required:
+## Equipments Required:
 Hardware – PCs
 Anaconda – Python 3.7 Installation / Jupyter notebook
-Program:
+
+## Program:
 
 /*
 Program to implement the the Logistic Regression Model to Predict the Placement Status of Student.
 Developed by: L Ganesh Kanna
 RegisterNumber: 212225230072
 */
-import pandas as pd
+
+```import pandas as pd
 from sklearn.preprocessing import LabelEncoder
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
@@ -82,7 +84,7 @@ new_prediction = lr.predict(new_student)
 
 print("\nPrediction for new student (0 = Not Placed, 1 = Placed):")
 print(new_prediction[0])
-
+```
 
 Output:
 <img width="1208" height="315" alt="image" src="https://github.com/user-attachments/assets/b0beb01a-b55b-49a1-a818-a98277c6ab3a" />
@@ -94,5 +96,5 @@ Output:
 <img width="1282" height="367" alt="image" src="https://github.com/user-attachments/assets/f6cdb638-9036-4e45-8401-d2f1e11b0670" />
 
 
-Result:
+## Result:
 Thus the program to implement the the Logistic Regression Model to Predict the Placement Status of Student is written and verified using python programming.
