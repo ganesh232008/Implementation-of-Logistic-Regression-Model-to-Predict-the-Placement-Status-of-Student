@@ -88,7 +88,7 @@ print("\nPrediction for new student (0 = Not Placed, 1 = Placed):")
 print(new_prediction[0])
 ```
 
-Output:
+# Output:
 <img width="1208" height="315" alt="image" src="https://github.com/user-attachments/assets/b0beb01a-b55b-49a1-a818-a98277c6ab3a" />
 <img width="1063" height="332" alt="image" src="https://github.com/user-attachments/assets/a993353f-5996-4e23-b2ef-04c7ffc235be" />
 <img width="952" height="353" alt="image" src="https://github.com/user-attachments/assets/12f3a824-ee26-424e-b77d-6647d15dcfec" />
