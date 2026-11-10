@@ -3,18 +3,18 @@
 To write a program to implement the the Logistic Regression Model to Predict the Placement Status of Student.
 
 ## Equipments Required:
-Hardware – PCs
-Anaconda – Python 3.7 Installation / Jupyter notebook
+1.Hardware – PCs
+2.Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Program:
-
+```
 /*
 Program to implement the the Logistic Regression Model to Predict the Placement Status of Student.
 Developed by: L Ganesh Kanna
 RegisterNumber: 212225230072
 */
 
-```import pandas as pd
+import pandas as pd
 from sklearn.preprocessing import LabelEncoder
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
